@@ -3,7 +3,7 @@
 
 body,td,th,p{
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 10pt;
+	font-size: 12pt;
 	color: #333;
 	line-height: 1.5;
 }
@@ -272,7 +272,14 @@ nav h1 a {
 #reviews-list li p {
   margin: 0 0 10px;
 }
+
+#restaurant-hours {
+	padding: 2% 8% 0 0;
+}
 #restaurant-hours td {
   color: #666;
-	width: 30%;
+	width: 10%;
 }
+/* table#restaurant-hours tr td:first-child {
+	width: 10%;
+} */
